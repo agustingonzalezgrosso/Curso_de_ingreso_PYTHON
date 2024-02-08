@@ -5,8 +5,8 @@ from tkinter.simpledialog import askstring as prompt
 import customtkinter
 
 '''
-nombre:
-apellido:
+nombre:agustin jose
+apellido:gonzalez grosso
 ---
 Ejercicio: entrada_salida_08
 ---
@@ -40,6 +40,14 @@ class App(customtkinter.CTk):
 
 
     def btn_mostrar_on_click(self):
+        txt_operador_a = self.txt_operador_a.get()
+        txt_operador_b = self.txt_operador_b.get()
+        operador_a = int(txt_operador_a)
+        operador_b = int(txt_operador_b)
+        
+        resultado = operador_a  %  operador_b
+        mensaje = f"el resto del resultado del numero {txt_operador_a} y {txt_operador_b} es "
+        alert ("" , mensaje + str(resultado) ) 
         pass
         
         
