@@ -1,0 +1,6 @@
+id,producto,precio,unidades_vendidas,stock
+1,camiseta,20.0,100,50
+2,pantalon,25.0,200,150
+3,chaqueta,50.0,50,10
+4,zapatos,35.0,75,20
+5,bufanda,15.0,10,5
